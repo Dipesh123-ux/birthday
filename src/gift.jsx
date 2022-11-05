@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 
-const Gift = ({party,setParty}) => {
-  const [isOpen, setOpen] = useState(false);
+const Gift = ({party,setParty,open,setOpen}) => {
+
 
   const handleClick = () => {
-    setOpen(!isOpen);
+    setOpen(!open);
     setParty(!party)
   };
 
   return (
     <div onClick={handleClick} className="gift">
       <div className="gift_wrap">
-        <div className={isOpen ? "gift_cover open" : "gift_cover close"}>
+        <div className={open ? "gift_cover open" : "gift_cover close"}>
           <div className="gift_ribbon" />
         </div>
         <div className="gift_box">
           <div
             className={
-              isOpen
+              open
                 ? "gift_box__shadow shadow_animation__hide"
                 : "gift_box__shadow shadow_animation__shake"
             }
