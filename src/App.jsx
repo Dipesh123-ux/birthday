@@ -50,12 +50,11 @@ function App() {
 				<img class="postcard__img" src={yash} alt="Image Title" />
 			</a>
 			<div class="postcard__text">
-				<h1 class="postcard__title blue">Happiest Birthday Yashika!</h1>
+				<h1 class="postcard__title blue">Hey Best junior!</h1>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Yeah I know this is the most nerdy way to wish someone but I do not have any materialistic thing for you. I'm too late to give you this small present cause busy in my dance 😂. From 1st year to now we always help each other in exams and you were always supportive when I was in any trouble.<br/>You may be rude sometimes I don't know why but Its okay now I'm good in handling that 😂. I hope you have enjoyed your day and thanks for coming to the event.</div>
-				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Your Coffee promise still pending 🥲</li>
-				</ul>
+				<div class="postcard__preview-txt">Tumhe yaad hai tumhare first year m jb humne bat start ki thi? It was such a great time for me. I still recall our first meeting at the ICH for your sih doubt, and then our trip to Bhedaghat—it was amazing, but ik mere friends ke karn awkward ho gya tha.
+Mene socha tha now I got a good friend, but when I saw you with that senior, mujhe bura lga tha. But now, as we're talking again and jb m Bangalore ja rha tha us time bhi tum mujhse milne aae thi, even you also called me there, I realize I can't keep these feelings to myself any longer.
+I don't want to live with regrets, so I'm laying it all out—I have feelings for you, more than just as a friend. You've been such an incredible presence in my life. Mujhe tumhara response nhi janna bcz it's too late now  but you are the best junior and friend I ever had 🤍🫶.</div>
 			</div>
 		</article>
 	</div>
