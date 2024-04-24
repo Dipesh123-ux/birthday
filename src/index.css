@@ -6,6 +6,10 @@
   font-family: sans-serif;
   text-align: center;
   margin: 0 auto;
+
+}
+body{
+  background-color: #0e171e;
 }
 
 .gift {
@@ -64,6 +68,7 @@
   overflow: hidden;
   box-sizing: border-box;
   z-index: 10;
+  color: white;
 }
 
 .gift_box::after {
@@ -171,7 +176,7 @@
   display:flex;
   height:100vh;
   width:100vw;
-  background:#ffffff;
+  /* background:#ffffff; */
   position:absolute;
 }
 
@@ -180,7 +185,7 @@
 body {
   font-family: "Baloo 2", cursive;
   font-size: 16px;
-  color: #ffffff;
+  /* color: #ffffff; */
   text-rendering: optimizeLegibility;
   font-weight: initial;
 }
