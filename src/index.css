@@ -370,7 +370,7 @@ a, a:hover {
   }
 
   .postcard.dark .postcard__text:before {
-    background: #18151f;
+    /* background: #18151f; */
   }
 
   .postcard.light .postcard__text:before {
